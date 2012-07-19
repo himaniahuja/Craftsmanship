@@ -1,5 +1,8 @@
 defaults: &defaults
   host: localhost
+  allow_dynamic_fields: false
+  autocreate_indexes: false
+  raise_not_found_error: true
   # slaves:
   #   - host: slave1.local
   #     port: 27018
